@@ -1,0 +1,70 @@
+html{
+    font-family: 'Courier New', Courier, monospace;
+}
+
+body{
+    background-color: #7fffd4;
+    margin: 0px;
+}
+
+.Order{
+    display: grid;
+    place-items: center;
+}
+
+img{
+    border-radius: 100px;
+    object-fit: cover;
+}
+
+a{
+    text-decoration: none;
+}
+
+a:hover{
+    color: #ffffff;
+}
+
+.Detalles{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #7fff00;
+    border: 2px dotted black ;
+    border-radius: 10px;
+    margin: 2px;
+}
+
+.Detalles:nth-child(2n+1){
+    background-color: #808080;
+}
+
+.Det_En{
+    display: grid;
+    place-items: center;
+    margin: 2px;
+    width: 510px;
+}
+
+#figura{
+    width: 150px;
+    height: 150px;
+}
+
+#Informacion{
+    border: 2px solid black;
+    border-radius: 10px;
+}
+
+#Presentacion{
+    background-color: white;
+    border: 2px solid black;
+    border-radius: 10px;
+}
+
+#Main{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    place-content: center;
+}
