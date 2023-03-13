@@ -1,10 +1,15 @@
-html{
+/* html{
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 body{
-    background-color: aquamarine;
+    background-color:  #0E8388;
     margin: 0;
+}
+
+nav{
+    background-color: #2E4F4F;
+    padding: 0;
 }
 
 nav ul{
@@ -13,6 +18,7 @@ nav ul{
     align-items: center;
     list-style: none;
     border-bottom: 2px solid black ;
+    margin-top: 0;
 }
 
 nav ul li img{
@@ -20,20 +26,17 @@ nav ul li img{
     object-fit: cover;
 }
 
-nav ul li:hover{
+nav ul li a:hover{
     background-color: white;
+    color: black;
     border-radius: 10px;
     padding: 2px;
 }
 
 a{
     text-decoration: none;
+    color: black;
 }
-
-a:hover{
-    color: white;
-}
-
 
 .Encabezado{
     display: grid;
@@ -54,6 +57,16 @@ a:hover{
     margin: 2px;
 }
 
+.Inicio{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.inactive{
+    display: none;
+}
+
 #Informacion{
     display: flex;
     flex-direction: column;
@@ -67,4 +80,91 @@ a:hover{
 #Presentacion{
     text-align: center;
     border-left: 2px solid black;
+} */
+
+html{
+    font-family: 'Courier New', Courier, monospace;
+}
+
+body{
+    background-color: #0E8388;
+    margin: 0px;
+    /* padding: 20px; */
+}
+
+img{
+    border-radius: 100px;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+h2{
+    background-color: white;
+}
+
+nav{
+    background-color: #2E4F4F;
+}
+
+nav ul{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+    margin: 0;
+}
+
+nav ul li:hover{
+    background-color: white;
+    color: black;
+    cursor: pointer;
+}
+
+nav img{
+    border-radius: 0;
+}
+
+.inactive{
+    display:none;
+}
+
+.HV{
+    margin-top: 10px;
+    height: 653px;
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    grid-template-rows: 1fr 1fr;
+}
+
+.Habilidades{
+    border-right: 2px solid black;
+}
+
+.Order{
+    display: flex;
+    flex-direction: column;
+    align-items: center;   
+}
+
+.Encabezado{
+    border-bottom: 2px solid black;
+}
+
+.Inicio{
+    height: 350px;
+    color: white;
+    position: absolute;
+    right: 40%;
+    text-align: center;
+}
+.Inicio img{
+    height: 70%;
+    border-radius: 0;
+}
+
+#Perfil{
+    border-radius: 100px;
 }
