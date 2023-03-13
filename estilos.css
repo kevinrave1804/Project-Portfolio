@@ -140,7 +140,14 @@ nav img{
 }
 
 .Habilidades{
-    border-right: 2px solid black;
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    grid-template-rows: 1fr 2fr;
+}
+
+.Habilidades div:nth-child(2n+1){
+    background-color: #CBE4DE;
+    border-right:2px solid black;
 }
 
 .Order{
@@ -151,6 +158,8 @@ nav img{
 
 .Encabezado{
     border-bottom: 2px solid black;
+    display: grid;
+    grid-template-columns: 1fr 2fr;
 }
 
 .Inicio{
@@ -161,10 +170,27 @@ nav img{
     text-align: center;
 }
 .Inicio img{
-    height: 70%;
+    height: 50%;
     border-radius: 0;
+    object-fit: cover;
 }
 
 #Perfil{
     border-radius: 100px;
 }
+
+#Informacion{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color:  #CBE4DE;
+}
+
+#Informacion img{
+    border-radius: 100px;
+}
+
+#Presentacion{
+    text-align: center;
+    border-left: 2px solid black;
+} 
