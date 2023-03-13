@@ -67,7 +67,7 @@ nav img{
 }
 
 .Inicio{
-    height: 450px;
+    height: 350px;
     color: white;
     display: flex;
     flex-direction: column;
@@ -78,4 +78,8 @@ nav img{
 .Inicio img{
     height: 70%;
     border-radius: 0;
+}
+
+#Perfil{
+    border-radius: 100px;
 }
