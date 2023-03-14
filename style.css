@@ -90,6 +90,13 @@ nav img{
     border-radius: 0;
 }
 
+.Consultas div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 50px;
+}
+
 #Perfil{
     border-radius: 100px;
 }
