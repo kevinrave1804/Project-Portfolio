@@ -1,0 +1,247 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
+
+p{
+    color: hsl(236, 13%, 42%);
+}
+
+@media (min-width:376px){
+    html{
+        font-family: 'Inter', sans-serif;
+        font-size: 1000;
+    
+    }
+    
+    nav{
+        display: flex;
+        justify-content: space-between;
+    }
+    
+    nav ul{
+        display: flex;
+        list-style: none;
+        box-sizing: border-box;
+    }
+    
+    nav ul li{
+        padding-left: 10px;
+    }
+    
+    nav ul li:hover{
+        cursor: pointer;
+        color: hsl(5, 85%, 63%);
+    }
+
+    .inactive{
+        display: none;
+    }
+
+    #Menu{
+        display: none;
+    }
+
+    #Mobile{
+        display: none;
+    }
+    
+    #Main{
+        display: flex;
+        padding-bottom: 40px;
+    }
+    
+    #First{
+        padding-right: 50px;
+    }
+    
+    #First img{
+        width: 100%;
+    }
+    
+    #Text{ 
+        display: flex;
+    }
+    
+    #Text h1{
+        font-size: 50px;
+        padding-right: 25px;
+        margin: 0;
+    }
+    
+    #Text div :nth-child(2){
+        background-color: hsl(5, 85%, 63%);
+        color: hsl(36, 100%, 99%);
+        width: fit-content;
+        padding-inline: 40px;
+        padding-block: 10px;
+    }
+    
+    #Text div :nth-child(2):hover{
+        background-color:black;
+        color:hsl(36, 100%, 99%);
+        width: fit-content;
+        cursor: pointer;
+    }
+    
+    #Second{
+        background-color: black;
+        padding: 25px;
+        width: 40%;
+    }
+    
+    #Second h2{
+        color:  hsl(35, 77%, 62%);
+    }
+    
+    #Second h3{
+        color: hsl(36, 100%, 99%);
+    }
+    
+    #Second h3:hover{
+        color:  hsl(35, 77%, 62%);
+        cursor: pointer;
+    }
+    
+    #Second div{
+        border-top: 2px solid  hsl(233, 8%, 79%);
+    }
+    
+    #Footer{
+        display: grid;
+        grid-template-columns: repeat(auto-fill,350px);
+        place-content: end space-between;
+    }
+    
+    #Footer img{
+        height: 210px;   
+    }
+
+    #Footer > div{
+        display: flex;
+    }
+    
+    #Footer> div >div{
+        padding-inline: 25px;
+    }
+    
+    #Footer  h2{
+        color: hsl(233, 8%, 79%);
+    }
+    
+    #Footer  h3:hover{
+        color: hsl(5, 85%, 63%);
+        cursor: pointer;
+    }
+}
+
+
+@media (max-width: 375px){
+    nav{
+        display: flex;     
+        justify-content: space-between;  
+    }
+
+    nav ul{
+        display: none;
+    }
+
+    .inactive{
+        display: none;
+    }
+
+    .MenuMobile{
+        background-color: hsl(36, 100%, 99%);
+        position: absolute;
+        right: 0;
+        width: 200px;
+        height: 100%;
+    }
+    
+    .MenuMobile img{
+        position: absolute;
+        right: 0;
+    }
+    
+    .MenuMobile ul{
+        list-style: none;
+        padding-left: 10px;
+        padding-top: 15px;
+        box-sizing: border-box;
+    }
+    
+    .MenuMobile ul li{
+        padding-block: 15px;
+    }
+    
+    .MenuMobile ul li:hover{
+        /* padding-block: 15px; */
+        color: hsl(5, 85%, 63%);
+    }
+
+    #Web{
+        display: none;
+    }
+
+    #Mobile{
+        width: 100%;
+    }
+
+    #Text h1{
+        font-size: 50px;
+        padding-right: 25px;
+        margin: 0;
+    }
+    
+    #Text div :nth-child(2){
+        background-color: hsl(5, 85%, 63%);
+        color: hsl(36, 100%, 99%);
+        width: fit-content;
+        padding-inline: 40px;
+        padding-block: 10px;
+    }
+    
+    #Text div :nth-child(2):hover{
+        background-color:black;
+        color:hsl(36, 100%, 99%);
+        width: fit-content;
+        cursor: pointer;
+    }
+
+    #Second{
+        background-color: black;
+        padding: 25px;
+        width: 90%;
+    }
+    
+    #Second h2{
+        color:  hsl(35, 77%, 62%);
+    }
+    
+    #Second h3{
+        color: hsl(36, 100%, 99%);
+    }
+    
+    #Second h3:hover{
+        color:  hsl(35, 77%, 62%);
+        cursor: pointer;
+    }
+    
+    #Second div{
+        border-top: 2px solid  hsl(233, 8%, 79%);
+    }
+
+    #Footer > div{
+        display: flex;
+    }
+    
+    #Footer> div >div{
+        padding-inline: 25px;
+    }
+    
+    #Footer  h2{
+        color: hsl(233, 8%, 79%);
+    }
+    
+    #Footer  h3:hover{
+        color: hsl(5, 85%, 63%);
+        cursor: pointer;
+    }
+}
