@@ -3,7 +3,7 @@ html{
 }
 
 body{
-    background-color: #0E8388;
+    background-color: #B0DAFF;
     margin: 0px;
 }
 
@@ -25,7 +25,7 @@ h2{
 }
 
 nav{
-    background-color: #2E4F4F;
+    background-color: #FEFF86;
 }
 
 nav ul{
@@ -65,7 +65,7 @@ nav img{
 }
 
 .Order a:hover{
-    color:#0E8388;
+    color:#19A7CE;
 }
 
 .Habilidades{
@@ -87,11 +87,12 @@ nav img{
 
 .Inicio{
     height: 350px;
-    color: white;
+    color: black;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    background-image: "./assets/FondoProgramacion.jpg";
 }
 
 .Inicio img{
@@ -135,6 +136,195 @@ nav img{
     padding: 5px;
 }
 
+.producto button{
+    padding-inline: 10px;
+}
+
+.catalogo nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #526D82;
+    color: #DDE6ED;
+
+}
+
+.catalogo nav ul{
+    display: flex;
+    list-style: none;
+}
+
+.catalogo nav ul li{
+    padding-inline: 15px;
+    font-size: 20px;
+}
+
+.catalogo nav ul li img{
+    width: 25px;
+    height: 25px;
+}
+
+.catalogo nav img{
+    height: 70px;
+    width: 70px;
+    object-fit: cover;
+}
+
+.producto{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color:#9DB2BF ;
+    padding-block: 15px;
+    height: 100%;
+}
+
+.producto p{
+    padding-inline: 10px;
+    font-size: auto;
+}
+
+.producto div ul{
+    list-style: none;
+    display: grid;
+    grid-template-rows: repeat(4,1fr);
+    align-items: center;
+    gap: 15px;
+    padding-block-start: 20px;
+}
+
+.producto div ul li{
+    display: flex;
+    align-items: center;
+    background-color: #DDE6ED;
+    padding-inline: 10px;
+    height: 100%;
+} 
+
+.producto div ul li img{
+    width: 100px;
+    height: 100px;
+} 
+
+.contacto{
+    font-size: 100%;
+    background-color: #CBE4DE;
+    text-align: center;
+}
+
+.EjerJS{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.EjerJS .Preguntas li{
+    background-color: #0E8388;
+    border: 2px solid black;
+    list-style: none;
+    text-align: center;
+    padding: 10px;
+    margin-bottom: 10px;
+    width: 100px;
+}
+
+li:hover{
+    cursor: pointer;
+}
+
+.Preguntas{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-gap: 10px
+}
+
+.Respuesta{
+    text-align: center;
+    padding: 100px;
+}
+
+.flashcard{
+    display: grid;
+    grid-template-columns: repeat(2,2fr);
+    grid-template-rows:  repeat(2,2fr);
+}
+
+.tarjetas{
+    background-color: #FF6000;
+    margin: 10px;
+}
+
+.tarjetas h2{
+    background-color: #FFA559;
+}
+
+.tarjetas img{
+    height: 150px;
+}
+
+.frontal{
+    background-color: #454545;
+    color: #FFE6C7;
+    text-align: center;
+}
+
+.tabla{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.tabla h2{
+    color: #146C94;
+    margin-block: 25px;
+}
+
+
+.tabla .sopa .ele{
+    background-color: #B0DAFF;
+    border: 2px solid black;
+    padding: 5px;
+}
+
+.tabla .sopa .ele:hover{
+    cursor: pointer;
+    background-color: #146C94;
+}
+
+.Retos ul{
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+}
+
+.Retos ul li{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 10px;
+}
+
+.Retos ul li img{
+    width: 50px;
+    height: 50px;
+    object-fit: cover;
+}
+
 #Perfil{
     border-radius: 100px;
+}
+
+@media(max-width: 320px){
+    .producto div ul li{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        background-color: #DDE6ED;
+        padding-inline: 10px;
+        height: 100%;
+    } 
+
+    .inactive{
+        display: none;
+    }
 }
