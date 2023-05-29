@@ -7,10 +7,6 @@ body{
     margin: 0px;
 }
 
-img{
-    border-radius: 100px;
-}
-
 a{
     text-decoration: none;
     color: black;
@@ -45,7 +41,7 @@ nav ul li:hover{
 nav img{
     border-radius: 0;
     height: 100px;
-}
+} 
 
 .Order{
     display: grid;
@@ -101,8 +97,8 @@ nav img{
 }
 
 .Consultas{
-    display: grid;
-    grid-template-columns: 1fr 2fr;
+    display: flex;
+    flex-wrap: wrap;
 }
 
 .Consultas div{
@@ -114,8 +110,9 @@ nav img{
 }
 
 .Diseños{
-    display: grid;
-    grid-template-columns: 1fr 1fr;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
 }
 
 .Diseños div{
@@ -293,6 +290,7 @@ li:hover{
 
 .Retos ul{
     display: flex;
+    flex-wrap: wrap;
     justify-content: center;
     margin-top: 100px;
 }
@@ -326,5 +324,89 @@ li:hover{
 
     .inactive{
         display: none;
+    }
+}
+
+@media (max-width:550px){
+    nav{
+        background-color: #FEFF86;
+    }
+    
+    nav ul{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+        list-style: none;
+        margin: 0;
+    }
+    
+    nav ul li:hover{
+        background-color: white;
+        color: black;
+        cursor: pointer;
+    }
+    
+    nav img{
+        border-radius: 0;
+        height: 100px;
+    } 
+
+    .Order{
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        grid-template-columns: 1fr 2fr; 
+        border-bottom: 2px solid black;
+    }
+    
+    .Order div{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    .Order div:nth-child(1){
+        background-color: #CBE4DE;
+        border-right: 2px solid black;
+    }
+    
+    .Order a:hover{
+        color:#19A7CE;
+    }
+    
+    .Habilidades{
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+    }
+    
+    .Habilidades div{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    .Habilidades div:nth-child(2n+1){
+        background-color: #CBE4DE;
+        border-right: 2px solid black;
+    }
+
+    .Diseños{
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+    }
+    
+    .Diseños img{
+        width: 100%;
+        height: 350px;
+        border-radius: 10px;
+        object-fit: cover;
+    }
+    
+    .Diseños a{
+        border: 2px solid #2C3333;
+        padding: 5px;
     }
 }
