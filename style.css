@@ -243,9 +243,9 @@ li:hover{
 }
 
 .flashcard{
-    display: grid;
-    grid-template-columns: repeat(2,2fr);
-    grid-template-rows:  repeat(2,2fr);
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
 }
 
 .tarjetas{
