@@ -1,0 +1,52 @@
+{
+    "catalogo": [{
+            "producto": {
+                "referencia": "cta123",
+                "nombre": "Camiseta",
+                "colores": ["Azul", "Negra", "Rojo", "Naranja"],
+                "tallas": ["S", "M", "L", "XL", "XXL"],
+                "fotos":"./assets/Camiseta.jpg"
+                ,
+                "precio": "$65.000",
+                "descripcion": "Camiseta de alta calidad con diseño moderno y elegante, perfecta para lucir estilo y comodidad en cualquier ocasión.",
+                "fabricante": "LilStyle"
+            }
+        },
+        {
+            "producto": {
+                "referencia": "jn123",
+                "nombre": "Jean",
+                "colores": ["Negro","Beige","Gris","Blanco"],
+                "tallas": ["S", "M", "L", "XL", "XXL"],
+                "fotos":"./assets/jeans.jpg",
+                "precio": "$95.000",
+                "descripcion": "Descubre la esencia del estilo y la comodidad con nuestros jeans. Confeccionados con los mejores materiales.",
+                "fabricante": "StyleMed"
+            }
+        },
+        {
+            "producto": {
+                "referencia": "bs123",
+                "nombre": "Buso",
+                "colores": ["Negro","Gris","Blanco"],
+                "tallas": ["S", "M", "L", "XL", "XXL"],
+                "fotos":"./assets/busos.jpg",
+                "precio": "$110.000",
+                "descripcion": "Diseñados pensando en tu confort, nuestros busos te envolverán en una suave y cálida sensación, perfecta para esos días relajados o actividades al aire libre.",
+                "fabricante": "StyleMed"
+            }
+        },
+        {
+            "producto": {
+                "referencia": "gr123",
+                "nombre": "Gorra",
+                "colores": ["Negro","Blanca"],
+                "tallas": ["S", "M", "L"],
+                "fotos":"./assets/gorra.jpg",
+                "precio": "$55.000",
+                "descripcion": "Añade un toque de estilo y personalidad a tu outfit con nuestras gorras. Nuestras gorras están diseñadas para combinar moda y funcionalidad",
+                "fabricante": "HugoBoss"
+            }
+        }
+    ]
+}
