@@ -16,6 +16,12 @@ function producto(){
                     ${element.producto.nombre}  (Referencia:${element.producto.referencia})
                 </h3>
                 <p>
+                    Colores:${element.producto.colores}  
+                </p>
+                <p>
+                    Tallas: ${element.producto.tallas}
+                </p>
+                <p>
                     ${element.producto.descripcion}
                 </p>
                 <div>
