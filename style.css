@@ -269,6 +269,7 @@ li:hover{
 
 .tabla{
     display: flex;
+    flex-wrap: wrap;
     flex-direction: column;
     align-items: center;
 }
@@ -282,12 +283,15 @@ li:hover{
 .tabla .sopa .ele{
     background-color: #B0DAFF;
     border: 2px solid black;
-    padding: 5px;
 }
 
 .tabla .sopa .ele:hover{
     cursor: pointer;
-    background-color: #146C94;
+    background-color: #FF6000;
+}
+
+.palabras{
+    display:flex;
 }
 
 .Retos ul{
