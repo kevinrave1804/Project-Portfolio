@@ -4,9 +4,9 @@
 
 ## Destacados
 
-- **TodoList 🌌:** Visualizacion de una lista de tareas interactiva y creativa. 
+- **FlashCard 🌌:** Tarjetas informativas, interactivas y creativas. 
 
-- **Interactive Comments 🕰️:** Duplicado de la red social de twitter.Crea, elimina y edita tus comentarios.
+- **Catalogo 🕰️:** Visualiza un catalogo de productos.
 
 - **HomePage 🎨:** Creacion de una pagina estatica de productos electornicos.
 
